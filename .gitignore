@@ -69,3 +69,5 @@ coverage.*
 **/dist/
 
 .claude
+
+**/*.tfvars
