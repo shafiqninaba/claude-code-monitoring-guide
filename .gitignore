@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# MacOS system files
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Env files
+.env
+.env.local
+datagen.env
+
+# ipynb notebooks
+*.ipynb
+
+# deepeval
+.deepeval/
+
+# JavaScript/Node.js dependencies
+/lms/frontend/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+lms/frontend/.next/
+/out/
+
+# production
+/build
+
+# misc
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+outputs/
+vertex_service_account.json*
+
+**/.history/*
+**/.vscode/*
+**/.coverage
+coverage.*
+
+# notebooks
+**/*.ipynb
+
+# others
+**/dist/
+
+.claude
